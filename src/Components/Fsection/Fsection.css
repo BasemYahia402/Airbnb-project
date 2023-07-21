@@ -1,0 +1,32 @@
+section {
+    padding: 40px;
+    font-family: Poppins sans-serif;
+}
+
+.section--img {
+    width: 800px;
+    display: flex;
+    margin: 0 auto;
+}
+
+@media (max-width:767px) {
+    section {
+        padding: 15px;
+    }
+
+    .section--img {
+        width: 280px;
+    }
+}
+
+@media (min-width:768px) and (max-width:992px) {
+    .section--img {
+        width: 650px;
+    }
+}
+
+section h1 {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 40px;
+}
