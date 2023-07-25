@@ -1,5 +1,5 @@
 import "./Navbar.css"
-import img from "../../../public/Images/github.svg"
+import img from "../../assets/Images/github.svg"
 export default function Navbar(){
     return(
         <div className="Navbar">
