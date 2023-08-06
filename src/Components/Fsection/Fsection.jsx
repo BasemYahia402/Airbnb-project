@@ -1,5 +1,5 @@
 import "./Fsection.css"
-import img from "../../assets/Images/1.png"
+import img from "../../../public/1.png"
 export default function Fsection(){
     return(
         <section className="F--section">
