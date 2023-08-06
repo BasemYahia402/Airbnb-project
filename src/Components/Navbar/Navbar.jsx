@@ -1,5 +1,5 @@
 import "./Navbar.css"
-import img from "../../assets/Images/github.svg"
+import img from "../../../public/github.svg"
 export default function Navbar(){
     return(
         <div className="Navbar">
@@ -13,7 +13,7 @@ export default function Navbar(){
             </clipPath>
             </defs>
             </svg>
-            <a href="https://github.com/BasemYahia402/Airbnb-project">
+            <a href="https://github.com/BasemYahia402/Airbnb-project" target="_blank">
             <img src={img} alt="error" className="githup--ico"/>
             </a>
         </div>
