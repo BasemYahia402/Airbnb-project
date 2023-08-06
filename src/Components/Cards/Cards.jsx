@@ -1,5 +1,5 @@
 import "./Cards.css"
-import img from "../../assets/Images/Star1.png"
+import img from "../../../public/Star1.png"
 export default function Card(props){
     let badge;
     if (props.item.openSpots === 0) {
@@ -10,7 +10,7 @@ export default function Card(props){
     return(
         <div className="card">
             {badge && <div className="badge">{badge}</div>}
-        <img src={`./src/assets/Images/${props.item.coverImg}`} alt="" />
+        <img src={`./${props.item.coverImg}`} alt="" />
         <div className="card--stats">
             <img src={img} alt="" />
             <span>{props.item.stats.rating}</span>
